@@ -49,6 +49,7 @@ body {
 
 }
 
+
 .main a:link {
     color: wheat;
     background-color: transparent;
@@ -89,20 +90,33 @@ img{
 .contacts li a img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+
+}
+
+.goals {
+    color: white;
+    justify-content: left;
 }
 
 
 
 @media (max-width: 300px){
+    .sam_photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
+
 
 
 @media (min-width: 400px){
+    .sam_photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
-.sam_photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
