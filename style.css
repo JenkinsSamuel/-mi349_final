@@ -1,9 +1,108 @@
-body{
-    background-color: white;
+body {
+    background-color: RGB(24, 69, 59);
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding: auto;
+}
+
+.head1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
     
 }
 
-.test{
-    align-items: center;
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    color: RGB(24, 69, 59);
+    margin: 0 auto;
+    overflow: hidden;
+}
 
+.navbar a {
+    float: left;
+    color: RGB(24, 69, 59);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: RGB(24, 69, 59);
+    color:white;
+}
+
+.main {
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    height: auto;
+    width: auto;
+    
+
+}
+
+.main a:link {
+    color: wheat;
+    background-color: transparent;
+
+}
+
+.main a:visited{
+    color:wheat;
+}
+.title{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.card{
+    position: relative;
+    background-color: white;
+    top: 0;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 0 10px 10px;
+    border: 1px solid #aaa;
+}
+img{
+    width: 100%;
+}
+.contacts {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+
+
+@media (max-width: 300px){
+}
+
+
+@media (min-width: 400px){
+}
+
+.sam_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
